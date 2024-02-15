@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Telerik.Reporting.Examples.CSharp.Properties.Settings.TelerikConnectionString-Web.config Connection String" description="Telerik.Reporting.Examples.CSharp.Properties.Settings.TelerikConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=SW00700008011\SQLEXPRESS;Initial Catalog=ReportsExample;user id=sed_do_admin;password=1qazxsw2;MultipleActiveResultSets=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\007KorinaVS\\source\\repos\\ReportsRestService\\ReportsRestService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Telerik.Reporting.Examples.CSharp.Properties.Settings.TelerikConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="URISTTEST-Web.config Connection String" description="URISTTEST Connection String used in web.config by the application to access the database." defaultValue="Data Source=SW00700008011\SQLEXPRESS;Initial Catalog=URIST_TEST;user id=sed_do_admin;password=1qazxsw2;MultipleActiveResultSets=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\007KorinaVS\\source\\repos\\ReportsRestService\\ReportsRestService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='URISTTEST']/@connectionString" />
+  </parameter>
+</parameters>

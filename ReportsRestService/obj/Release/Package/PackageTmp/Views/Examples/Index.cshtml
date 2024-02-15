@@ -1,0 +1,15 @@
+﻿@model IEnumerable<ReportsRestService.Models.ReportCatalog>
+@{
+    ViewBag.Title = "Examples";
+}
+
+<h2>Примеры</h2>
+<ul>
+    @foreach (ReportsRestService.Models.ReportCatalog report in Model)
+    {
+        <li>
+            @Html.ActionLink(report.Name, "../Home/Index", new { template = report.Template, parameters = report.Parameters }, new { target="_blank"})
+        </li>
+    }
+</ul>
+
